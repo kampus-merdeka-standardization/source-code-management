@@ -176,4 +176,5 @@ As a result, good() is never reached after a failure (there are only 2 calls, on
 
 fail(), clear(n) and exceptions() are just never called. Delete them.
 ```
-
+## References
+- [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
