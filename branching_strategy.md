@@ -60,7 +60,7 @@ GitFlow adalah sebuah fitur dari Git yang digunakan untuk keperluan desain alur 
 
 ![example-gitflow](https://miro.medium.com/v2/resize:fit:658/1*5i8mTaBs05J3eGhp_CJv5Q.png)
 
-1. **Master**: Ini adalah branch utama tempat semua perubahan akhir akan digabungkan. Biasanya, branch ini akan mencerminkan kode yang ada di produksi¹.
+1. **Master**: Ini adalah branch utama tempat semua perubahan akhir akan digabungkan. Biasanya, branch ini akan mencerminkan kode yang ada di produksi.
 
 2. **Hotfixes**: branch ini biasanya digunakan untuk perbaikan bug mendesak yang perlu diterapkan ke produksi secepat mungkin.
 
@@ -85,7 +85,7 @@ Branch naming adalah konvensi penamaan yang digunakan dalam pengembangan perangk
     | test | untuk mencoba sesuatu yang bukan merupakan masalah |
     | wip | untuk pekerjaan yang sedang berjalan |
 
-2. **Gunakan ID Unik dalam nama cabang**: Anda bisa menggunakan ID pelacak masalah dalam nama cabang Anda¹.
+2. **Gunakan ID Unik dalam nama cabang**: Anda bisa menggunakan ID pelacak masalah dalam nama cabang Anda.
    - Contoh benar: `bug-123-logo-alignment-issue`, `wip-456-ioc-container-added`.
    - Contoh salah: `bug-logo-alignment-issue`, `wip-ioc-container-added`.
 
@@ -97,7 +97,7 @@ Branch naming adalah konvensi penamaan yang digunakan dalam pengembangan perangk
    - Contoh benar: `bug-123-logo-alignment-issue`, `wip-456-ioc-container-added`.
    - Contoh salah: `123`, `456`.
 
-5. **Hindari nama deskriptif yang panjang untuk cabang jangka panjang**: Untuk cabang yang akan ada dalam jangka waktu yang lama, hindari nama yang terlalu panjang¹.
+5. **Hindari nama deskriptif yang panjang untuk cabang jangka panjang**: Untuk cabang yang akan ada dalam jangka waktu yang lama, hindari nama yang terlalu panjang.
    - Contoh benar: `master`, `develop`, `QA`.
    - Contoh salah: `master-branch-for-final-code`, `development-branch`, `quality-assurance-branch`.
 
